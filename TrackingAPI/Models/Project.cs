@@ -15,5 +15,9 @@ namespace ProjectAPI.Models
         public float Mileage { get; set; }
         public float Budget { get; set; }
         public float BudgetUsed { get; set; }
+        public Expense Expense { get; set; }
+        public HoursSpent HoursSpent { get; set; }
+        public Receipt Receipt { get; set; }
+        public Note Note { get; set; }
     }
 }
