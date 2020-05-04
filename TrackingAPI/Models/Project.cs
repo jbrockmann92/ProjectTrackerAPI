@@ -15,17 +15,5 @@ namespace ProjectAPI.Models
         public float Mileage { get; set; }
         public float Budget { get; set; }
         public float BudgetUsed { get; set; }
-        [ForeignKey("Expense")]
-        public int ExpenseId { get; set; }
-        public Expense Expense { get; set; }
-        [ForeignKey("HoursSpent")]
-        public int HoursSpentId { get; set; }
-        public HoursSpent HoursSpent { get; set; }
-        [ForeignKey("Receipt")]
-        public int ReceiptId { get; set; }
-        public Receipt Receipt { get; set; }
-        [ForeignKey("Note")]
-        public int NoteId { get; set; }
-        public Note Note { get; set; }
     }
 }
